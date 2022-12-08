@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <header>
+        <div class="img">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div class="texto">
+            <h1>CRIADOR DE CONTEÚDO</h1>
+            <p>Olá eu me chamo Thiago Pontes, sou Criador de Conteúdo e utilizo diversas <br>
+                ferramentas de edições e tratamento de imagens como Adobe Photoshop, Canvas, Adobe Ilustrator, StreamlabsObs e LightWorks, para apresentar os melhores resultados a sua rede social. <br>
+                <button>MEUS PROJETOS</button>
+        </div>
+
+    </header>
+
+    <section class="projetos" id="projetos">
+
+        <h1>Meus Projetos</h1>
+
+        <div class="items">
+            <div class="item1">
+
+                
+                <h2>CALCULADORA</h2>
+                <button> <a href="https://github.com/Thiagopontescf/Calculadora.git">VER O PROJETO</a></button>
+            </div>
+
+            <div class="item2">
+
+                <h2>BATE PAPO</h2>
+                <button><a href="https://github.com/Thiagopontescf/bate-papo.git">VER O PROJETO</a></button>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="contato" id="contato">
+        <h1>Contato</h1>
+        
+        <div class="flex">
+
+            
+            <div class="form">
+                
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <input type="text" name="email" id="email" placeholder="E-mail">
+            <textarea name="" id="" placeholder="Assunto Desejado   "></textarea>
+            <button id="btn_contato">ENVIAR</button>
+        </div>
+        
+        <div class="redes_sociais">
+            <div class="yotube">
+                <img src="/imagens/youtube.png" alt="" srcset="">
+                <h2>thiagopontescf</h2>
+            </div>
+            
+            <div class="instagram">
+                <img src="/imagens/instagram.png" alt="" srcset="">
+                <h2>thiagopontescf</h2>
+            </div>
+            
+            <div class="facebook">
+                <img src="/imagens/facebook.png" alt="" srcset="">
+                <h2>thiagopontescf</h2>
+            </div>
+
+        </div>
+        
+    </div>
+    </footer>
+
+   
+
+</body>
+
+    <script>
+        const button_contato = document.getElementById('btn_contato')
+        const nome_contato = document.getElementById('nome')
+        button_contato.addEventListener('click', () => {
+            alert('Assunto Enviado com Sucesso')
+        })
+</script>
+
+</html>
