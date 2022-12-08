@@ -126,6 +126,7 @@ header div {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .items .item1,.items .item2 {
@@ -135,6 +136,7 @@ header div {
     align-items: center;
     justify-content: center;
     border: 1px solid red;
+    margin: 20px 0;
 
 }
 
@@ -226,6 +228,7 @@ header div {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .flex {
